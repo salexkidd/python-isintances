@@ -15,7 +15,6 @@ ____________________________________
 True
 >>> isinstances([1, 2, 3, "a",], int)
 (False, ['a'])
-
 >>> from isinstances import isinstances_with_raise
 >>> isinstances_with_raise([1, 2, 3,], int)
 Traceback (most recent call last):
